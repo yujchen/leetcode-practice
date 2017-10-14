@@ -44,7 +44,7 @@ int hammingDistance(int x, int y)
 }
 //
 
-/*Better solution*/
+/*Better solution from leetcode*/
 int hammingDistance(int x, int y)
 {
   int dist = 0, n = x ^ y;
